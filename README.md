@@ -34,11 +34,11 @@ THIS IS A REDO OF THE ADMIN-DASHBOARD PROJECT (NEVER FINISHED THE FIRST ONE CAUS
 
 
 ===============================================================
-Project Design Reference: http://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png
+Project Design Reference: https://cdn.statically.io/gh/TheOdinProject/curriculum/main/html_css/grid-lessons/project-dashboard/dashboard-project.png
 
 
-Color Palettes: http://tailwindcss.com/docs/customizing-colors
-Color Picker: http://imagecolorpicker.com
+Color Palettes: https://tailwindcss.com/docs/customizing-colors
+Color Picker: https://imagecolorpicker.com
 
 Blueish color: #1992d4
 Yellowish Border: #f0b429
@@ -46,4 +46,5 @@ Grayish background: #e2e8f0
 
 Font-family: Roboto
 
-SVG Icons: http://materialdesignicons.com
+SVG Icons: https://materialdesignicons.com
+SVG Codepen color picker: https://codepen.io/sosuke/pen/Pjoqqp

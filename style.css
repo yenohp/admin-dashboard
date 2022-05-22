@@ -139,3 +139,86 @@ table {
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    display: grid;
+    grid-template: auto 4fr/1fr 4fr;
+
+}
+
+.svg-icons {
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(279deg) brightness(104%) contrast(100%);
+}
+
+/*==================================================================================*/
+/* SIDEBAR  */
+.sidebar {
+    grid-area: 1/1/end/2;
+
+    background-color: #1992d4;
+
+}
+
+.logo-text,
+.sidebar-text {
+    color: white;
+}
+
+.sidebar-container>button {
+    background-color: #1992d4;
+    border: none;
+}
+
+/*==================================================================================*/
+/* HEADER */
+.header {
+    grid-area: 1/2/2/3;
+
+    display: grid;
+    grid-template: 3fr 2fr/ 3fr 1fr;
+
+}
+
+.methods {
+    color: white;
+    background-color: #1992d4;
+    border: none;
+}
+
+/*==================================================================================*/
+/* MAIN-CONTENT */
+.main-content {
+    grid-area: 2/2/end/3;
+
+    display: grid;
+    grid-template: auto/4fr 1fr;
+    background-color: #e2e8f0;
+}
+
+.your-projects {
+    grid-area: 1/1/end/2;
+
+    display: grid;
+    grid-template: 1fr repeat(3, 2fr)/1fr 1fr;
+}
+
+.subtitle-container-1 {
+    grid-area: 1/1/2/3;
+}
+
+.project-card {
+    box-shadow: -10px 0px #f0b429;
+    background-color: white;
+}
+
+.announcements {
+    grid-area: 1/2/2/3;
+}
+
+.subtitle-container-2 {}
+
+.trending {
+    grid-area: 2/2/end/3;
+}
+
+.subtitle-container-3 {}
