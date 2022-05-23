@@ -48,3 +48,5 @@ Font-family: Roboto
 
 SVG Icons: https://materialdesignicons.com
 SVG Codepen color picker: https://codepen.io/sosuke/pen/Pjoqqp
+
+Profile Pictures: https://unsplash.com/s/photos/profile-picture
