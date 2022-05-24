@@ -297,6 +297,19 @@ input:focus {
     box-shadow: -.25rem .5rem .25rem #bfc4cb;
 }
 
+.project-card-svgs {
+    position: relative;
+    top: 8rem;
+    left: 17rem;
+    display: grid;
+    grid-template: 1rem/repeat(3, 1rem);
+    gap: 2rem;
+}
+
+.project-card-svgs>img {
+    width: 1.75rem;
+}
+
 .announcements {
     grid-area: 1/2/2/3;
     background-color: white;
