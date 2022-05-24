@@ -299,7 +299,6 @@ input:focus {
 
 .project-card-svgs {
     position: relative;
-    top: 8rem;
     left: 17rem;
     display: grid;
     grid-template: 1rem/repeat(3, 1rem);
@@ -308,6 +307,25 @@ input:focus {
 
 .project-card-svgs>img {
     width: 1.75rem;
+}
+
+.project-text {
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+    width: 80%;
+    height: 75%;
+}
+
+.title {
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: .25rem;
+}
+
+.description {
+    color: #58595a
 }
 
 .announcements {
