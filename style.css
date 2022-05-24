@@ -221,16 +221,50 @@ span {
 /* HEADER */
 .header {
     grid-area: 1/2/2/3;
-
+    height: 8rem;
     display: grid;
     grid-template: 3fr 2fr/ 3fr 1fr;
 
 }
 
+.search-bar {
+    align-self: center;
+    padding-left: 2rem;
+}
+
+.search-bar>img {
+    width: 2rem;
+    padding-right: 2rem;
+}
+
+.search-bar>img,
+.search-bar>input,
+.user-notification>img,
+.user-notification>span {
+    vertical-align: middle;
+}
+
+.user-notification {
+    align-self: center;
+}
+
 .methods {
     color: white;
     background-color: #1992d4;
+    border-radius: .5rem;
     border: none;
+}
+
+input {
+    background-color: #e2e8f0;
+    border-radius: 1rem;
+    border: none;
+    width: 70%;
+    height: 1.5rem;
+}
+
+input:focus {
+    outline: .1rem solid #bfc4cb !important;
 }
 
 /*==================================================================================*/
