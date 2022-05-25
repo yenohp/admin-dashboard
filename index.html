@@ -1,193 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font-family : Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!--  -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font-family : Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!--  -->
 
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
-    <title>TOP | Project: Admin Dashboard</title>
-</head>
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js" defer></script>
+        <title>TOP | Project: Admin Dashboard</title>
+    </head>
 
-<body>
-    <div class="sidebar">
-        <div class="logo">
-            <img src="./svgs/sidebar/view-dashboard.svg" alt="Logo Icon" class="svg-icons" id="logo-icon">
-            <span class="logo-text">Dashboard</span>
-        </div>
-        <div class="options-1">
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/home.svg" alt="Home Icon" class="svg-icons">
-                    <span class="sidebar-text">Home</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/card-account-details.svg" alt="Profile Icon"
-                        class="svg-icons"><span class="sidebar-text">Profile</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/message-reply.svg" alt="Messages Icon"
-                        class="svg-icons"><span class="sidebar-text">Message</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/clock-time-three.svg" alt="History Icon"
-                        class="svg-icons"><span class="sidebar-text">History</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/note-multiple.svg" alt="Tasks Icon"
-                        class="svg-icons"><span class="sidebar-text">Tasks</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/account-group.svg" alt="Communities Icon"
-                        class="svg-icons"><span class="sidebar-text">Communities</span></button></div>
-        </div>
-        <div class="options-2">
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/cog.svg" alt="Settings Icon"
-                        class="svg-icons"><span class="sidebar-text">Settings</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/help-box.svg" alt="Support Icon"
-                        class="svg-icons"><span class="sidebar-text">Support</span></button></div>
-
-            <div class="sidebar-container"><button><img src="./svgs/sidebar/shield-check.svg" alt="Privacy Icon"
-                        class="svg-icons"><span class="sidebar-text">Privacy</span></button></div>
-        </div>
-    </div>
-    <div class="header">
-        <div class="search-bar">
-            <img src="./svgs/header/magnify.svg" alt="Search Icon" class="header-svg-icons">
-            <input type="text">
-        </div>
-        <div class="user-notification">
-            <img src="./svgs/header/bell-ring-outline.svg" alt="Notification Icon" class="header-svg-icons">
-            <!-- User PFP -->
-            <span>Morgan Oakley</span>
-        </div>
-        <div class="user-greeting">
-            <!-- User PFP-large -->
-            <span>Hi there,</span>
-            <span>Morgan Oakley (@morgan)</span>
-        </div>
-        <div class="user-methods">
-            <button class="methods">New</button>
-            <button class="methods">Upload</button>
-            <button class="methods">Share</button>
-        </div>
-    </div>
-    <div class="main-content">
-        <div class="your-projects">
-            <div class="subtitle-container-1">
-                <span class="subtitle">Your Projects</span>
+    <body>
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./svgs/sidebar/view-dashboard.svg" alt="Logo Icon" class="svg-icons" id="logo-icon">
+                <span class="logo-text">Dashboard</span>
             </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Super Cool Project</span>
-                    <span class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Less Cool Project</span>
-                    <span class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto natus
-                        deserunt voluptas blanditiis molestias neque enim odit, temporibus debitis qui ex fuga, velit
-                        vel illo culpa expedita incidunt, sint dolor!</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Impossible App</span>
-                    <span class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Easy Peasy App</span>
-                    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fuga, ex ipsam
-                        ad aperiam optio, rerum animi vero expedita consectetur impedit dicta blanditiis, nesciunt quas
-                        voluptatum tempora error! Iste, minima.</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Ad Blocker</span>
-                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-                        dolorem maxime illum dignissimos obcaecati quae quo eaque voluptatum incidunt voluptatem ut,
-                        dolore commodi soluta minus quidem sequi, deleniti harum tenetur.</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-text">
-                    <span class="title">Money Maker</span>
-                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                        voluptatibus veniam assumenda eius vitae explicabo eum, doloremque, libero possimus iusto quod.
-                        Repudiandae debitis assumenda quisquam sit suscipit impedit sunt perspiciatis?</span>
-                </div>
-                <div class="project-card-svgs">
-                    <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
-                    <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
-                    <img src="./svgs/project-options/git.svg" alt="Git Icon">
-                </div>
-            </div>
+            <div class="options-1">
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/home.svg" alt="Home Icon"
+                            class="svg-icons">
+                        <span class="sidebar-text">Home</span></button></div>
 
-        </div>
-        <div class="announcements">
-            <div class="subtitle-container-2">
-                <span class="subtitle">Announcements</span>
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/card-account-details.svg"
+                            alt="Profile Icon" class="svg-icons"><span class="sidebar-text">Profile</span></button>
+                </div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/message-reply.svg" alt="Messages Icon"
+                            class="svg-icons"><span class="sidebar-text">Message</span></button></div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/clock-time-three.svg" alt="History Icon"
+                            class="svg-icons"><span class="sidebar-text">History</span></button></div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/note-multiple.svg" alt="Tasks Icon"
+                            class="svg-icons"><span class="sidebar-text">Tasks</span></button></div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/account-group.svg"
+                            alt="Communities Icon" class="svg-icons"><span
+                            class="sidebar-text">Communities</span></button></div>
             </div>
-            <div class="announcements-card">
-                <div class="message">
-                    <span class="title-small">Site Maintenance</span>
-                    <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
-                </div>
-                <hr>
-                <div class="message">
-                    <span class="title-small">Site Maintenance</span>
-                    <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
-                </div>
-                <hr>
-                <div class="message">
-                    <span class="title-small">Site Maintenance</span>
-                    <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
-                </div>
+            <div class="options-2">
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/cog.svg" alt="Settings Icon"
+                            class="svg-icons"><span class="sidebar-text">Settings</span></button></div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/help-box.svg" alt="Support Icon"
+                            class="svg-icons"><span class="sidebar-text">Support</span></button></div>
+
+                <div class="sidebar-container"><button><img src="./svgs/sidebar/shield-check.svg" alt="Privacy Icon"
+                            class="svg-icons"><span class="sidebar-text">Privacy</span></button></div>
             </div>
         </div>
-        <div class="trending">
-            <div class="subtitle-container-3">
-                <span class="subtitle">Trending</span>
+        <div class="header">
+            <div class="search-bar">
+                <img src="./svgs/header/magnify.svg" alt="Search Icon" class="header-svg-icons">
+                <input type="text">
             </div>
-            <div class="user">
-                <!-- PFP -->
-                <span class="title-small">@username</span>
-                <span class="description-small">Lorem ipsum dolor</span>
+            <div class="user-notification">
+                <img src="./svgs/header/bell-ring-outline.svg" alt="Notification Icon" class="header-svg-icons">
+                <!-- User PFP -->
+                <img src="./imgs/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg" alt="User Profile Picture" class="user-pfp">
+                <span>Morgan Oakley</span>
+            </div>
+            <div class="user-greeting">
+                <!-- User PFP-large -->
+                <span>Hi there,</span>
+                <span>Morgan Oakley (@morgan)</span>
+            </div>
+            <div class="user-methods">
+                <button class="methods">New</button>
+                <button class="methods">Upload</button>
+                <button class="methods">Share</button>
             </div>
         </div>
-    </div>
-</body>
+        <div class="main-content">
+            <div class="your-projects">
+                <div class="subtitle-container-1">
+                    <span class="subtitle">Your Projects</span>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Super Cool Project</span>
+                        <span class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Less Cool Project</span>
+                        <span class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            natus
+                            deserunt voluptas blanditiis molestias neque enim odit, temporibus debitis qui ex fuga,
+                            velit
+                            vel illo culpa expedita incidunt, sint dolor!</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Impossible App</span>
+                        <span class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Easy Peasy App</span>
+                        <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fuga, ex
+                            ipsam
+                            ad aperiam optio, rerum animi vero expedita consectetur impedit dicta blanditiis, nesciunt
+                            quas
+                            voluptatum tempora error! Iste, minima.</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Ad Blocker</span>
+                        <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Exercitationem
+                            dolorem maxime illum dignissimos obcaecati quae quo eaque voluptatum incidunt voluptatem ut,
+                            dolore commodi soluta minus quidem sequi, deleniti harum tenetur.</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-text">
+                        <span class="title">Money Maker</span>
+                        <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                            voluptatibus veniam assumenda eius vitae explicabo eum, doloremque, libero possimus iusto
+                            quod.
+                            Repudiandae debitis assumenda quisquam sit suscipit impedit sunt perspiciatis?</span>
+                    </div>
+                    <div class="project-card-svgs">
+                        <img src="./svgs/project-options/star-plus-outline.svg" alt="Favorite Icon">
+                        <img src="./svgs/project-options/eye-plus-outline.svg" alt="Watch Icon">
+                        <img src="./svgs/project-options/git.svg" alt="Git Icon">
+                    </div>
+                </div>
+
+            </div>
+            <div class="announcements">
+                <div class="subtitle-container-2">
+                    <span class="subtitle">Announcements</span>
+                </div>
+                <div class="announcements-card">
+                    <div class="message">
+                        <span class="title-small">Site Maintenance</span>
+                        <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="message">
+                        <span class="title-small">Site Maintenance</span>
+                        <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </span>
+                    </div>
+                    <hr>
+                    <div class="message">
+                        <span class="title-small">Site Maintenance</span>
+                        <span class="description-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <div class="subtitle-container-3">
+                    <span class="subtitle">Trending</span>
+                </div>
+                <div class="user">
+                    <!-- PFP -->
+                    <span class="title-small">@username</span>
+                    <span class="description-small">Lorem ipsum dolor</span>
+                </div>
+            </div>
+        </div>
+    </body>
 
 </html>
