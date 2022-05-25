@@ -277,7 +277,7 @@ input:focus {
 /* MAIN-CONTENT */
 .main-content {
     grid-area: 2/2/end/3;
-
+    overflow: auto;
     display: grid;
     grid-template: auto/4fr 1fr;
     background-color: #e2e8f0;
@@ -297,16 +297,19 @@ input:focus {
 .project-card {
     background: linear-gradient(90deg, #f0b429 3.5%, white 1%);
     width: 90%;
-    height: auto;
+    /* height: auto; */
     border-radius: .5rem;
     margin: 0 0 1rem 1rem;
     box-shadow: -.25rem .5rem .25rem #bfc4cb;
+
+    /* Testing card height */
+    height: 20rem;
 }
 
 .project-card-svgs {
     position: relative;
-    top: 2.5rem;
-    left: 17rem;
+    top: 5.5rem;
+    left: 23.5rem;
     display: grid;
     grid-template: 1rem/repeat(3, 1rem);
     gap: 2rem;
